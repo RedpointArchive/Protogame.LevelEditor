@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name>LevelEditor</Name>
+  <DefaultAction>automated-build</DefaultAction>
+  <GenerateNuGetRepositories>true</GenerateNuGetRepositories>
+  <Packages />
+</Module>

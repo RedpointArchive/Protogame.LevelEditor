@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExternalProject Name="Atf.Core">
+
+  <Platform Type="Windows">
+    <Project 
+      Name="Atf.Core.vs2010"
+      Guid="9D1835B6-D1C2-44BA-BAE1-05C6EC442D2F"
+      Path="ATF\Framework\Atf.Core\Atf.Core.vs2010.csproj" />
+  </Platform>
+  
+</ExternalProject>

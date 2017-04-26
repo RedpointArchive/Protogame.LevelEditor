@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project Name="ProtogameEditorUnbundler" Path="ProtogameEditorUnbundler" Type="Console">
+  <Properties>
+    <LangVersion>Default</LangVersion>
+  </Properties>
+  <References>
+    <Reference Include="System.Xml" />
+    <Reference Include="Atf.Core" />
+    <Reference Include="CodeGenDom" />
+    <Reference Include="DomGen" />
+  </References>
+  <Files>
+    <Compile Include="Program.cs" />
+  </Files>
+</Project>

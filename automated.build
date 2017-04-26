@@ -1,0 +1,24 @@
+#version 1
+
+# We can only apply bundles on Windows
+if host Windows
+
+  # Generate projects
+  generate
+  
+  # First pass build so we have the C++ code generator
+  native-execute cmd /C "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe" /m CodeGenDom\CodeGenDom.vs2010.csproj
+  native-execute cmd /C "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe" /m ProtogameEditorUnbundler\ProtogameEditorUnbundler.Windows.csproj
+  
+  # Execute the game unbundler
+  execute ProtogameEditorUnbundler
+  
+  # Second pass build to include the new code from the game bundle
+  set build-property AdditionalOptions /MP /Gm-
+  build
+  
+  # Now do a release build
+  set build-property Configuration Release
+  build
+  
+endif

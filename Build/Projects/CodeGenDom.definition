@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExternalProject Name="CodeGenDom">
+
+  <Platform Type="Windows">
+    <Reference Include="Atf.Core" />
+    <Project 
+      Name="CodeGenDom.vs2010"
+      Guid="FE3CA2EA-2F56-49A5-AD02-E5DEC8694457"
+      Path="CodeGenDom\CodeGenDom.vs2010.csproj" />
+  </Platform>
+  
+</ExternalProject>
