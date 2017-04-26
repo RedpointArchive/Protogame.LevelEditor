@@ -179,3 +179,7 @@ GameBundle/Generated/*
 CodeGenDom/OutBin/*
 *.db
 *.opendb
+
+GameBundle/bundle.*.xsd
+LevelEditor.Windows.sln
+LevelEditor.Windows.speccache
