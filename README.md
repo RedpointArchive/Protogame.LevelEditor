@@ -1,11 +1,13 @@
 LevelEditor 
 ===========
 
+## **‚ùó‚ùó‚ùó Protogame has been sunset as of 1st Jan 2018 and is no longer supported or maintained. Please read the announcement for more information: [Sunsetting Protogame](https://medium.com/redpoint/sunsetting-protogame-a18e1f03af43). ‚ùó‚ùó‚ùó**
+
 The LevelEditor is a software tool used to design levels (maps, campaigns, and virtual worlds) for a video game. A level editor is used by a game designer.
 
 The standalone LevelEditor is a fully functional modern level editor. Using the LevelEditor, you can design a game world for any video game engine. You can create and lay out terrain, place static game objects in the world (such as rocks, plants, street lights, or buildings), place light sources for game objects, and place Linears for dynamic game objects.
 
-The LevelEditor leverages the Authoring Tools Framework and C# for user interface and data management, and leverages the power of C++ and MicrosoftÆ DirectXÆ 11 for 3D rendering.
+The LevelEditor leverages the Authoring Tools Framework and C# for user interface and data management, and leverages the power of C++ and MicrosoftÔøΩ DirectXÔøΩ 11 for 3D rendering.
 
 Originally built from the Authoring Tools Framework, the LevelEditor offers a WYSIWYG interface and a variety of features that support asset management, game object creation, scene layout, and cross-team development. The LevelEditor can also be customized and extended by creating plug-ins. For more about the Level Editor's capabilities, see LevelEditor Features & Benefits.
 
@@ -23,8 +25,8 @@ The following LevelEditor features help you construct game levels efficiently an
 
 LevelEditor Minimal System Requirements
 ---------------------------------------
-* Microsoft WindowsÆ 7 64-bit SP1 with platform update or newer.
-* Microsoft DirectXÆ 10 compatible graphics card or newer.
+* Microsoft WindowsÔøΩ 7 64-bit SP1 with platform update or newer.
+* Microsoft DirectXÔøΩ 10 compatible graphics card or newer.
 
 Development Environment:
 ------------------------
